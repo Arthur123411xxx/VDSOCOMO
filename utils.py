@@ -1,5 +1,5 @@
 """
-utils.py - Utilitaires pour normalisation, scoring et parsing
+vd_utils.py - Utilitaires pour normalisation, scoring et parsing
 """
 
 import re

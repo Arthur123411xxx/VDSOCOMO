@@ -34,8 +34,11 @@ except Exception as e:
 try:
     import cv2
     CV2_AVAILABLE = True
-except ImportError:
+    CV2_ERROR = ""
+except Exception as e:
     CV2_AVAILABLE = False
+    CV2_ERROR = str(e)
+
 
 
 def check_dependencies() -> Tuple[bool, List[str]]:

@@ -2,6 +2,9 @@
 extract.py - Extraction de données des factures (PE, montants, champs bonus)
 """
 
+import re
+
+
 from typing import Optional, List
 from utils import (
     extract_pe_candidates,
